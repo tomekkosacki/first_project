@@ -12,9 +12,9 @@ public class PersonDB {
 
     static {
         persons.put(1, new Person(1, "FN1", "LN1", "email1@email.com"));
-        persons.put(2, new Person(2, "FN2", "LN2", "email2@email.com"));
-        persons.put(3, new Person(3, "FN3", "LN3", "email3@email.com"));
-        persons.put(4, new Person(4, "FN4", "LN4", "email4@email.com"));
+        persons.put(2, new Person(2,"FN2", "LN2", "email2@email.com"));
+        persons.put(3, new Person(3,"FN3", "LN3", "email3@email.com"));
+        persons.put(4, new Person(4,"FN4", "LN4", "email4@email.com"));
     }
 
     public static Person getById(int id) {

@@ -2,6 +2,7 @@ package pl.comarch.tomasz.kosacki.data;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+
 public class Person {
     private int id;
     private String firstName;
@@ -9,7 +10,6 @@ public class Person {
     private String email;
 
     public Person() {
-
     }
 
     public Person(int id, String firstName, String lastName, String email) {
@@ -20,14 +20,10 @@ public class Person {
     }
 
     @JsonProperty
-    public int getId(){
-        return id;
-    }
+    public int getId(){ return id; }
 
     @JsonProperty
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getFirstName() { return firstName; }
 
     @JsonProperty
     public String getLastName() {
@@ -35,7 +31,6 @@ public class Person {
     }
 
     @JsonProperty
-    public String getEmail() {
-        return email;
-    }
+    public String getEmail() { return email; }
+
 }
