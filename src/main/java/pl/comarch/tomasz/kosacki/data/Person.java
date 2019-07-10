@@ -26,11 +26,10 @@ public class Person {
     public String getFirstName() { return firstName; }
 
     @JsonProperty
-    public String getLastName() {
-        return lastName;
-    }
+    public String getLastName() { return lastName; }
 
     @JsonProperty
     public String getEmail() { return email; }
+
 
 }
